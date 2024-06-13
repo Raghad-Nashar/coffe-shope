@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+  background: #ebdcd5;
+}
+.navbar-brand{
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #daccba !important ;
+}
+.navbar{
+  background: #895b4a !important ;
+}
+.nav-item{
+  color: whitesmoke;
+}
+.cardFirst{
+  background-color: #d5c5b4;
+}
+.card-header{
+  background: #623817 !important;
+
+}
+.cardFirst a{
+  background: #432d27 !important;
+  color: white;
+}
+.card-title{
+  color: red !important;
+  /* text-align: start; */
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.d-block {
+  height: 80vh;
+  position: relative;
+}
+.cardSecound{
+  background: url(img/rr.jpg);
+  background-size: 100% 100%;
+}
+.cardtherd{
+  background: url(img/11.jpg);
+  background-size: 100% 100%;
+}
+/* .cardPrice{ */
+  /* background-color: ; */
+/* } */
+input{
+  display: flex;
+  background-image: url(img/10.jpg);
+  border: 1px dotted pink;
+}
+
+.toggler-btn{
+    border: solid 1px rgb(108, 121, 182) !important;
+}
+.app-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+label{
+  color: rgba(110, 21, 5, 0.822);
+}
+h5{
+  color: #daccba !important ;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+h4{
+  color: rgb(61, 16, 3);
+}
+button{
+  background: #432d27 !important;
+  border: 8px;
+}
+.fontCard{
+  color: #daccba !important ;
+}
+.text-info{
+  color: black !important ;
+  background: #623817 !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+p{
+  color: #432d27 !important;
+}
+#Rise{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background:#0e0504 !important;
+  border-top: 2px red solid !important;
+  border-bottom: 2px solid red;
+  border-radius: 50%;
+  color: white;
+  display: none;
+
+}
